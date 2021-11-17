@@ -11,7 +11,6 @@ from operator import itemgetter
 import operator
 import scipy.sparse as sp
 import random as rnd
-import seaborn as sns
 from numpy import genfromtxt
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -25,7 +24,6 @@ from multiprocessing import Pool
 from scipy import sparse
 from tqdm import tqdm
 import torch
-import nmslib
 import time
 from scipy.sparse import csr_matrix
 np.random.seed(22)
