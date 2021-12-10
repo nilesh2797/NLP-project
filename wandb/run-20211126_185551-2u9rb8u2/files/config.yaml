@@ -1,0 +1,97 @@
+wandb_version: 1
+
+OUT_DIR:
+  desc: null
+  value: Results/Seq2Seq-py/EURLex-4K/bert-base-uncased-bert-base-uncased-py_lr-2e-05_bsz-24_ep-25
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.4
+    framework: huggingface
+    huggingface_version: 4.12.3
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.7.9
+    start_time: 1637974551
+    t:
+      1:
+      - 1
+      - 5
+      - 11
+      2:
+      - 1
+      - 5
+      - 11
+      3:
+      - 13
+      4: 3.7.9
+      5: 0.12.4
+      6: 4.12.3
+      8:
+      - 5
+accumulation_steps:
+  desc: null
+  value: 1
+amp:
+  desc: null
+  value: false
+bsz:
+  desc: null
+  value: 24
+dataset:
+  desc: null
+  value: EURLex-4K
+decoder:
+  desc: null
+  value: bert-base-uncased
+device:
+  desc: null
+  value: cuda:0
+embs_dim:
+  desc: null
+  value: 768
+encoder:
+  desc: null
+  value: bert-base-uncased
+eval_interval:
+  desc: null
+  value: 3
+expname:
+  desc: null
+  value: bert-base-uncased-bert-base-uncased-py_lr-2e-05_bsz-24_ep-25
+hostname:
+  desc: null
+  value: c228-101.maverick2.tacc.utexas.edu
+lr:
+  desc: null
+  value: 2.0e-05
+maxlen:
+  desc: null
+  value: 256
+n_epochs:
+  desc: null
+  value: 25
+netname:
+  desc: null
+  value: bert-base-uncased-bert-base-uncased
+no_save:
+  desc: null
+  value: false
+numy:
+  desc: null
+  value: 3801
+opt:
+  desc: null
+  value: adam
+project:
+  desc: null
+  value: Seq2Seq-py
+resume:
+  desc: null
+  value: false
+token_type:
+  desc: null
+  value: bert-base-uncased
+warmup:
+  desc: null
+  value: 0.1

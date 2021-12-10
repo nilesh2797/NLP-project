@@ -1,0 +1,33 @@
+{
+    "os": "Linux-3.10.0-957.12.1.el7.x86_64-x86_64-with-centos-7.6.1810-Core",
+    "python": "3.7.9",
+    "heartbeatAt": "2021-11-27T00:55:55.134453",
+    "startedAt": "2021-11-27T00:55:51.041272",
+    "docker": null,
+    "gpu": "Tesla V100-PCIE-16GB",
+    "gpu_count": 2,
+    "cpu_count": 48,
+    "cuda": null,
+    "args": [
+        "--dataset",
+        "EURLex-4K",
+        "--maxlen",
+        "256",
+        "--bsz",
+        "24",
+        "--n-epochs",
+        "25"
+    ],
+    "state": "running",
+    "program": "seq2seq.py",
+    "codePath": "seq2seq.py",
+    "git": {
+        "remote": "https://github.com/nilesh2797/NLP-project.git",
+        "commit": "cf9d2dd1f2b041b0efb1ba646c917ef977307f98"
+    },
+    "email": "nileshgupta2797@gmail.com",
+    "root": "/work2/08343/nilesh/maverick2/courses/NLP/NLP-project",
+    "host": "c228-101.maverick2.tacc.utexas.edu",
+    "username": "nilesh",
+    "executable": "/work/08343/nilesh/maverick2/anaconda3/envs/xc/bin/python"
+}
